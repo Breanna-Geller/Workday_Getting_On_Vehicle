@@ -65,9 +65,9 @@ Students must hold down the **PS button** and the **SHARE** button at the same t
 
 The LED lights on the controller will light up different colors, dependent on the vehicle they are connected to. They are as follows:
 
-- rc0: Blue
-- rc1: Red
-- rc2: Green
+- Obi-Wan: Blue
+- Vader: Red
+- Yoda: Green
 
 An example of a Blue lit LED connection to rc0 is shown below.
 
