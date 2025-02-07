@@ -1,4 +1,4 @@
-# WorkDay: RBT on Physical Vehicle
+# WorkDay: Getting on the Vehicle
 
 ## Connecting to the F1 Vehicle
 Student groups must download [NoMachine](https://www.nomachine.com/) 
@@ -92,7 +92,7 @@ Example output is pictured below:
 Finally, there exists a "dead man's switch" to allow your controller to post drive commands to the vehicle. In case the car gets out of control, releasing the switch will stop the car. This switch is assinged to **LB**/**L1**- hold it down to be able to drive.
 
 The left joystick is used for throttle, the right joystick is used for steering.
-
+ 
 
 ### RViz2
 
@@ -100,6 +100,7 @@ Run the following command to launch rviz:
 ```bash
 f1@rc0:~$ rviz2
 ```
+
 
 ## Troubleshooting
 
