@@ -10,6 +10,8 @@ specific to your vehicle and group name.
 
 <!--Private repo for groups share the credentials -->
 
+
+
 Students must be connected to their specific router to ssh into their vehicle. If you cannot ssh, check your wifi connection and make sure eduroam is not hijacking your connection. You will get the following output to your terminal if you have successfully connected:
 
 ```bash
@@ -106,6 +108,11 @@ f1@rc0:~$ rviz2
 
 ### VESC
 If your VESC is flashing a red light, your battery does not have enough power and must be charged. The VESC will die first, then your no machine connection. It is always the safest bet to assume the battery is dead so we don't kill any more.
+
+### No ROS topics posting
+You may have noticed you can run your ros2 bringup_launch command, but the vehicle is not driving. 
+You must check that you are actively signed into No-Machine. An ssh connection will not suffice to post 
+to topics.
 <!--## RBT on Vehicle
 
 ![Car Transformations](img/transformlaser.PNG)-->
